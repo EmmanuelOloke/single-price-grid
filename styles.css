@@ -5,6 +5,119 @@
 }
 
 body {
+    background-color: hsl(204, 43%, 93%);
     font-family: 'Karla', sans-serif;
     font-size: 16px;
+}
+
+main {
+    border-radius: 10px;
+    background-color: #FFF;
+    margin: 4em 2em;
+    overflow: hidden;
+}
+
+.join {
+    font-family: 'Karla', sans-serif;
+    padding: 2em 1.5em;
+}
+
+h1 {
+    color: hsl(179, 62%, 43%);
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 1.3em;
+    margin-bottom: 1em;
+}
+
+.free {
+    color: hsl(71, 73%, 54%);
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+.gain {
+    color: hsl(218, 22%, 67%);
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 0.85em;
+    margin-bottom: 1em;
+    line-height: 1.5;
+}
+
+.sub {
+    background-color: hsl(179, 62%, 43%);
+    margin: 0;
+    padding: 2em 1.5em;
+}
+
+.month {
+    color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.money {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.8em;
+}
+
+.price {
+    color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.per {
+    color: hsl(204, 43%, 93%);
+    opacity: 0.5;
+    margin-left: 1em;
+    margin-top: 0.5em;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.full {
+    color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    margin-bottom: 1.7em;
+}
+
+.sign-up {
+    background-color: hsl(71, 73%, 54%);
+    color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    border-radius: 5px;
+    padding: 0.5em 5em;
+    border: none;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.why {
+    background-color: hsl(174, 60%, 49%);
+    padding: 2em 1.5em;
+}
+
+ul {
+    color: hsl(204, 43%, 93%);
+    opacity: 0.8;
+    list-style-type: none;
+    font-weight: 400;
+}
+
+.colors {
+    color: hsl(179, 62%, 43%);
+    color: hsl(71, 73%, 54%);
+    color: hsl(204, 43%, 93%);
+    color: hsl(218, 22%, 67%);
 }
